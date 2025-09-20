@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "@PROGRAM_PATH@",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "jlink",
+            "device": "@device@",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            },
+            "swoConfig": {
+                "enabled": true,
+                "source": "probe",
+                "swoFrequency": 2000000,
+                "cpuFrequency": 48000000,
+                "decoders": [
+                    {
+                        "port": 0,
+                        "type": "console",
+                        "label": "SWO output",
+                        "encoding": "utf8"
+                    }
+                ]
+            },
+            "preLaunchTask": "build",
+        },
+        {
+            "name": "Run",
+            "cwd": "${workspaceFolder}",
+            "executable": "@PROGRAM_PATH@",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "",
+            "servertype": "jlink",
+            "device": "@device@",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            },
+            "rttConfig": {
+                "enabled": true,
+                "address": "auto",
+                "decoders": [
+                    {
+                        "label": "",
+                        "port": 0,
+                        "type": "console"
+                    }
+                ]
+            },
+            "preLaunchTask": "build",
+        }
+    ]
+}

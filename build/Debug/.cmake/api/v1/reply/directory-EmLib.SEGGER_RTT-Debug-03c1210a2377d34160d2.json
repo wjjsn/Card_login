@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "EmLib/SEGGER_RTT",
+		"source" : "EmLib/SEGGER_RTT"
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "files.associations": {},
+    "clangd.arguments": [
+        "--query-driver=C:/Users/28584/APP/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-*.exe",
+        "--compile-commands-dir=${workspaceFolder}\\build\\Debug",
+    ],
+    "cortex-debug.variableUseNaturalFormat": false
+}

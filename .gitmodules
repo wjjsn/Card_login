@@ -1,0 +1,3 @@
+[submodule "EmLib"]
+	path = EmLib
+	url = https://github.com/wjjsn/EmLib.git

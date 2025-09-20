@@ -1,0 +1,227 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "cmake/stm32cubemx",
+					"jsonFile" : "directory-cmake.stm32cubemx-Debug-a874d3cc84b5982fda2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "cmake/stm32cubemx",
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				},
+				{
+					"build" : "EmLib",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"jsonFile" : "directory-EmLib-Debug-4342fd39751bedd1f0a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "EmLib"
+				},
+				{
+					"build" : "EmLib/CherryRB",
+					"jsonFile" : "directory-EmLib.CherryRB-Debug-fed204c82cc30c473da6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "EmLib/CherryRB",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "EmLib/SEGGER_RTT",
+					"jsonFile" : "directory-EmLib.SEGGER_RTT-Debug-03c1210a2377d34160d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "EmLib/SEGGER_RTT",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "EmLib/HAL",
+					"jsonFile" : "directory-EmLib.HAL-Debug-25361b82556c66ae8b6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "EmLib/HAL"
+				},
+				{
+					"build" : "EmLib/Hardware",
+					"jsonFile" : "directory-EmLib.Hardware-Debug-ebd8cc34d4ba53112e59.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "EmLib/Hardware"
+				},
+				{
+					"build" : "EmLib/eLOG",
+					"jsonFile" : "directory-EmLib.eLOG-Debug-7b771f251e191b7617b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "EmLib/eLOG",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "CherryUSB",
+					"jsonFile" : "directory-CherryUSB-Debug-16af0577680564e9dde9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CherryUSB"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "PN532_test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "CherryRB::@089e417baa1000aa2742",
+					"jsonFile" : "target-CherryRB-Debug-57cce190ff5433f94f26.json",
+					"name" : "CherryRB",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "FreeRTOS::@768a070a0fe75716b479",
+					"jsonFile" : "target-FreeRTOS-Debug-9ea86a035bb4a8b124c1.json",
+					"name" : "FreeRTOS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PN532_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PN532_test-Debug-c15c8c73e858b60456c0.json",
+					"name" : "PN532_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SEGGER_RTT::@beaa47ecb968b3fb3fa8",
+					"jsonFile" : "target-SEGGER_RTT-Debug-1265ae5543d395bff389.json",
+					"name" : "SEGGER_RTT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_Drivers::@768a070a0fe75716b479",
+					"jsonFile" : "target-STM32_Drivers-Debug-3aae20b38bde743b12ad.json",
+					"name" : "STM32_Drivers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "eLOG::@187df7fc2be3c68f6f4e",
+					"jsonFile" : "target-eLOG-Debug-04cfad33ac21859bce51.json",
+					"name" : "eLOG",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/28584/Desktop/Card_login/build/Debug",
+		"source" : "C:/Users/28584/Desktop/Card_login"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

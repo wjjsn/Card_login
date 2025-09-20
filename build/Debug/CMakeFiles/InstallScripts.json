@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/28584/Desktop/Card_login/build/Debug/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/cmake/stm32cubemx/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/EmLib/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/EmLib/CherryRB/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/EmLib/SEGGER_RTT/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/EmLib/HAL/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/EmLib/Hardware/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/EmLib/eLOG/cmake_install.cmake",
+		"C:/Users/28584/Desktop/Card_login/build/Debug/CherryUSB/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
